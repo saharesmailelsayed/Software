@@ -1,0 +1,235 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width:1200px;
+    margin: auto;
+    
+}
+/* Start header */
+.header{
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+.header .logo{
+    float: left;
+}
+.header .logo h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header .navbar{
+    float: right;
+}
+.header .navbar ul{
+    list-style: none;
+    margin: 20px;
+}
+.header .navbar ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: #D7D7D8;
+
+}
+.header .navbar ul li a:hover{
+    color: #f84a8f;
+}
+/* End header */
+/* Start Content */
+.content
+{    
+    background-image: url('../Images/abstract_colorful_bokeh_background_vector_graphic_illustration_570253.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about
+{
+    overflow: hidden;
+}
+.about .info{text-align: center}
+.about .info p
+{
+    text-align: center;
+    font-size: 28px;
+    line-height: 35px;
+    color: #f6f6f6;
+    padding-top: 70px;
+}
+.about .info p span{
+    color: #fff;
+    font-weight: bold;
+}
+.about .info button
+{
+    
+    align-content: center;
+    background: #f84a8f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 35px;
+    margin-top: 45px;
+    border: 0;
+    border-radius: 5px;
+}
+.about .info button:hover, .blog .part .info button:hover
+{
+    background: #e76498
+}
+/* End Content */
+.blog
+{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.blog .part
+{
+    background: #fff;
+    width: 30%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%
+}
+.blog .part .image img {width: 100%}
+.blog .part .info
+{
+    text-align: center;
+    padding-top: 35px;
+}
+.blog .part .info p
+{
+    font-size: 20px;
+    padding: 0 20px 25px 20px;
+    line-height: 30px;
+    color: #9A9A9A;
+}
+.blog .part .info button
+{
+    background: #f84a8f;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    border: 0;
+    border-radius: 5px;
+}
+.blog .main{
+    overflow: hidden;
+    width: 46%;
+    color: #fff;
+    float: left;
+    margin-right: 4%;
+}
+.blog .main hr{
+    border: 0.5px solid #f5f3f3;
+}
+
+.blog .main .icons{
+    float: left;
+    position: relative;
+     top: 46px;
+     
+}
+.blog .main .icons i
+{
+    padding-right: 30px;
+    font-size: 40px;
+}
+.blog .main .heading
+{
+    overflow: hidden;
+}
+.blog .main .heading h2
+{
+    font-size: 30px;
+}
+.blog .main .heading p
+{
+    color: #F0F2F7;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.contact{
+    overflow: hidden;
+    background: #f84a8f;
+    
+    color: #fff;
+}
+.contact .detailes{
+    overflow: hidden;
+    margin-top: 40px;
+    text-align: center;
+}
+.contact .detailes h2{
+    font-size: 47px;
+}
+.contact .detailes p{
+     word-spacing: 5px;
+    font-size: 22px;
+}
+.contact .detailes input,textarea{
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    
+}
+.contact .detailes textarea{
+    height: 150px;
+}
+.contact .detailes button{
+    background: none;
+    color: #fff;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact .detailes button:hover{
+    background-color: #e76498;
+}
+/* Start footer */
+.footer .foot{
+    overflow: hidden;
+    background-color: #000;
+    color:#656669;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer .foot span{
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .foot span > span{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.footer .foot i{
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.footer .foot i:hover{
+    color: #fff;
+}
+/* End footer */
